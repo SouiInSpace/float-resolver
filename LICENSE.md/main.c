@@ -42,16 +42,21 @@ int main()
   {
     printf("%d",tab[i]);
   }
-
+    //Créer une nouvelles variables car problèmes
+    //Ne ps utiliser val mais valeur INT
+    //car la valeur binaire est stovké dans un tableau
+    //
+    //
     //calcul de l'exposant    int t[50], = val;
-    int z[50] ;
+    int z[50];
     int j = 0;
     while(val>0){
         z[j]=val%10;
         val=val/10;
         j++;
     }
-    printf("\n val =%i",&j);
+    j--;
+    printf("\n val =%i",&val);
 
 }
 
