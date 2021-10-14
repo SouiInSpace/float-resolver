@@ -36,7 +36,7 @@ int main()
     val = val/2;
   }
 
-  printf("\nLe nombre binaire est = ");
+  printf("Le nombre binaire est = ");
 
   for(i=i-1; i >= 0; i--)
   {
@@ -45,14 +45,14 @@ int main()
 
     //calcul de l'exposant    int t[50], = val;
     int z[50] ;
-    z  = val;
     int j = 0;
-    while(z[j] != NULL) {
-     j++;
-}
-j--;
+    while(val>0){
+        z[j]=val%10;
+        val=val/10;
+        j++;
+    }
+    printf("\n val =%i",&j);
 
-    printf("%i",val);
-
 }
+
 
