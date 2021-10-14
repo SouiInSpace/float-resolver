@@ -12,13 +12,13 @@ int main()
     float exp;
 
     //Demande d'ajouter les valeurs
-    printf("Entrez la valeur à convertir (chiffre avant virgule : ");
+    printf("Entrez la valeur Ã  convertir (chiffre avant virgule : ");
     scanf("%i",&val);
-   // printf("Entrez la valeur à convertir (chiffre après virgules :");
+   // printf("Entrez la valeur Ã  convertir (chiffre aprÃ¨s virgules :");
    // scanf("%f",val2);
 
 
-    //Definis si le signe est positif ou négatif
+    //Definis si le signe est positif ou nÃ©gatif
     /*if(val>0){
         signe=signe;
     }
@@ -55,3 +55,4 @@ j--;
     printf("%i",val);
 
 }
+
